@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fon {
+  display: flex;
+  width: 100%;
+  height: 620px;
+  background-color: crimson;
+}
+
+.boks {
+  display: flex;
+  margin-top: 100px;
+  width: 100%;
+  height: 230px;
+  background-color: rgb(115, 151, 187);
+}
+
+.boby7, .boby6, .boby5, .boby4, .boby3, .boby2, .boby {
+  display: flex;
+  flex-direction: row;
+  height: 232px;
+  width: 100px;
+  border: 1px solid lightsteelblue;
+  overflow: hidden;
+  transition: 2s;
+}
+
+.boby7 .lin, .boby6 .lin, .boby5 .lin, .boby4 .lin, .boby3 .lin, .boby2 .lin, .boby .lin {
+  display: flex;
+  flex-direction: row;
+  height: 230px;
+  transition: 0s;
+}
+
+.boby7 .lin .twitter, .boby6 .lin .twitter, .boby5 .lin .twitter, .boby4 .lin .twitter, .boby3 .lin .twitter, .boby2 .lin .twitter, .boby .lin .twitter {
+  width: 45px;
+  height: 45px;
+  margin: 92px 26px;
+  fill: aliceblue;
+  transition: 0s;
+}
+
+.boby:hover {
+  width: 441px;
+}
+.boby:hover .linu::after {
+  margin-left: -100px;
+  width: 100px;
+}
+.boby .linu::after {
+  content: url("./img/twitter.svg");
+  display: block;
+  position: relative;
+  margin-left: 0px;
+  width: 0px;
+  height: 100px;
+  border: 1px solid lightsteelblue;
+  background-color: rgb(140, 193, 247);
+  padding: 63px 0px;
+  transition: 0s;
+}
+.boby .lost {
+  border: 1px solid lightblue;
+  background-color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  padding: 30px 20px;
+  width: 340px;
+  height: 228px;
+}
+.boby .lost p {
+  margin-top: 20px;
+  width: 300px;
+  font-size: 14px;
+}
+
+.boby2:hover {
+  width: 440px;
+}
+.boby2:hover .linu::after {
+  margin-left: -100px;
+  width: 100px;
+}
+.boby2 .linu::after {
+  content: url("./img/facebook-f (1).svg");
+  display: block;
+  position: relative;
+  margin-left: 0px;
+  width: 0px;
+  height: 100px;
+  border: 1px solid lightsteelblue;
+  background-color: rgb(10, 72, 134);
+  padding: 63px 0px;
+  transition: 0s;
+}
+.boby2 .lost {
+  border: 1px solid lightblue;
+  background-color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  padding: 30px 20px;
+  width: 340px;
+  height: 228px;
+}
+.boby2 .lost p {
+  margin-top: 20px;
+  width: 300px;
+  font-size: 14px;
+}
+
+.boby3:hover {
+  width: 440px;
+}
+.boby3:hover .linu::after {
+  margin-left: -100px;
+  width: 100px;
+}
+.boby3 .linu::after {
+  content: url("./img/linkedin.svg");
+  display: block;
+  position: relative;
+  margin-left: 0px;
+  width: 0px;
+  height: 100px;
+  border: 1px solid lightsteelblue;
+  background-color: rgb(52, 137, 221);
+  padding: 63px 0px;
+  transition: 0s;
+}
+.boby3 .lost {
+  border: 1px solid lightblue;
+  background-color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  padding: 30px 20px;
+  width: 340px;
+  height: 228px;
+}
+.boby3 .lost p {
+  margin-top: 20px;
+  width: 300px;
+  font-size: 14px;
+}
+
+.boby4:hover {
+  width: 440px;
+}
+.boby4:hover .linu::after {
+  margin-left: -100px;
+  width: 100px;
+}
+.boby4 .linu::after {
+  content: url("./img/instagram-alt.svg");
+  display: block;
+  position: relative;
+  margin-left: 0px;
+  width: 0px;
+  height: 100px;
+  border: 1px solid lightsteelblue;
+  background-color: rgb(26, 156, 21);
+  padding: 63px 0px;
+  transition: 0s;
+}
+.boby4 .lost {
+  border: 1px solid lightblue;
+  background-color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  padding: 30px 20px;
+  width: 340px;
+  height: 228px;
+}
+.boby4 .lost p {
+  margin-top: 20px;
+  width: 300px;
+  font-size: 14px;
+}
+
+.boby5:hover {
+  width: 440px;
+}
+.boby5:hover .linu::after {
+  margin-left: -100px;
+  width: 100px;
+}
+.boby5 .linu::after {
+  content: url("./img/youtube.svg");
+  display: block;
+  position: relative;
+  margin-left: 0px;
+  width: 0px;
+  height: 100px;
+  border: 1px solid lightsteelblue;
+  background-color: rgb(218, 33, 33);
+  padding: 63px 0px;
+  transition: 0s;
+}
+.boby5 .lost {
+  border: 1px solid lightblue;
+  background-color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  padding: 30px 20px;
+  width: 340px;
+  height: 228px;
+}
+.boby5 .lost p {
+  margin-top: 20px;
+  width: 300px;
+  font-size: 14px;
+}
+
+.boby6:hover {
+  width: 440px;
+}
+.boby6:hover .linu::after {
+  margin-left: -100px;
+  width: 100px;
+}
+.boby6 .linu::after {
+  content: url("./img/tumblr.svg");
+  display: block;
+  position: relative;
+  margin-left: 0px;
+  width: 0px;
+  height: 100px;
+  border: 1px solid lightsteelblue;
+  background-color: rgb(6, 52, 99);
+  padding: 63px 0px;
+  transition: 0s;
+}
+.boby6 .lost {
+  border: 1px solid lightblue;
+  background-color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  padding: 30px 20px;
+  width: 340px;
+  height: 228px;
+}
+.boby6 .lost p {
+  margin-top: 20px;
+  width: 300px;
+  font-size: 14px;
+}
+
+.boby7:hover {
+  width: 440px;
+}
+.boby7:hover .linu::after {
+  margin-left: -100px;
+  width: 100px;
+}
+.boby7 .linu::after {
+  content: url("./img/dribbble.svg");
+  display: block;
+  position: relative;
+  margin-left: 0px;
+  width: 0px;
+  height: 100px;
+  border: 1px solid lightsteelblue;
+  background-color: rgb(201, 43, 69);
+  padding: 63px 0px;
+  transition: 0s;
+}
+.boby7 .lost {
+  border: 1px solid lightblue;
+  background-color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  padding: 30px 20px;
+  width: 340px;
+  height: 228px;
+}
+.boby7 .lost p {
+  margin-top: 20px;
+  width: 300px;
+  font-size: 14px;
+}/*# sourceMappingURL=main.css.map */
