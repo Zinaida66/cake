@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 .hider {
-  min-height: 680px;
+
   height: 100%;
   background: linear-gradient(rgb(127, 108, 233) 0%, rgb(207, 71, 248) 100%);
   display: flex;
