@@ -70,13 +70,13 @@
   border-radius: 10px;
 }
 
-.text, .text2, .text3, .text4 {
+.text1, .text2, .text3, .text4 {
   font-size: 40px;
   color: rgb(3, 52, 116);
   font-family: "indei";
 }
 
-.boxs, .boxs2, .boxs3, .boxs4 {
+.boxs1, .boxs2, .boxs3, .boxs4 {
   height: 100%;
   padding: 10px;
   border-radius: 30px;
