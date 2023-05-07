@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 .hider {
-
+  min-height: 700px;
   height: 100%;
   background: linear-gradient(rgb(127, 108, 233) 0%, rgb(207, 71, 248) 100%);
   display: flex;
@@ -70,13 +70,13 @@
   border-radius: 10px;
 }
 
-.text1, .text2, .text3, .text4 {
+.text, .text2, .text3, .text4 {
   font-size: 40px;
   color: rgb(3, 52, 116);
   font-family: "indei";
 }
 
-.boxs1, .boxs2, .boxs3, .boxs4 {
+.boxs, .boxs2, .boxs3, .boxs4 {
   height: 100%;
   padding: 10px;
   border-radius: 30px;
@@ -112,10 +112,9 @@
 
 .img {
   color: rgb(240, 241, 248);
-  font-size: 50px;
-  font-weight: bold;
- font-family:cursive;
-  padding-top: 60px;
+  font-size: 0px;
+  font-family:cursive;
+  padding-top: 90px;
   height: 326px;
   width: 100%;
   border-radius: 28px;
@@ -126,7 +125,18 @@
   background-size: cover;
   background-color: rgba(245, 245, 245, 0.753);
 }
-
+.menu{
+  display: flex;
+  position: absolute;
+  font-size: 30px;
+  font-family: sans-serif;
+  border: 3px solid black;
+  background-color: rgb(83, 6, 155);
+  border-radius: 100px;
+  padding: 11px 42px;
+  color: black;
+  right: 50px;
+}
 .bent {
   font-size: 30px;
 }
@@ -134,6 +144,7 @@
 .img:hover {
   background-color: rgba(122, 118, 119, 0.952);
   content: 'hjff,hjf,j';
+  font-size: 50px;
 }
 
 .img1 {
@@ -167,21 +178,22 @@
 }
 
 .img8 {
-  padding-top: 90px;
+ 
   background-image: url(./fonts/фото/photo_2023-04-06_00-10-56.jpg);
 }
 .img7{
+  
   background-image: url(./fonts/фото/photo_2023-04-06_13-56-54.jpg);
 }
 .img10{
   background-image: url(./fonts/фото/photo_2023-04-06_00-11-00.jpg);
 }
 .img11{
-  padding-top: 90px;
+
   background-image: url(./fonts/фото/photo_2023-04-13_10-40-32.jpg);
 }
 .img12{
-  padding-top: 90px;
+
   background-image: url(./fonts/фото/photo_2023-04-13_10-40-25.jpg);
 }
 .lis {
@@ -190,7 +202,7 @@
 
 .final {
   width: 100%;
-  height: 170px;
+  height: 150px;
   background-color: rgba(63, 81, 181, 0.3);
 }
 .dets1{
@@ -251,6 +263,7 @@
   font-family: monospace;
   margin: 10px;
 }
+
 @media screen and (max-width: 480px) {
   .boxs {
     flex-direction: column;
@@ -265,3 +278,4 @@
     width: 90%;
   }
 }
+
