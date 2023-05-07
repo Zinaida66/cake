@@ -1,16 +1,19 @@
 "use strict";
 const getS = (selector) => document.querySelector(selector); 
 //Bento cake
-document.querySelector(".text1").addEventListener("click", () => {
+document.querySelector(".text").addEventListener("click", () => {
   getS('.boxs1').classList.remove('hide');
   getS('.close1').classList.remove('liv');
   getS('.dets1').classList.remove('divs');
 })
-document.querySelector(".close1").addEventListener("click", () => {
+document.querySelector(".close").addEventListener("click", () => {
   getS('.boxs1').classList.add('hide');
   getS('.close1').classList.add('liv');
   getS('.dets1').classList.remove('divs');
 })
+function cake(){
+  
+}
 //Desserts
 document.querySelector(".text2").addEventListener("click", () => {
   getS('.boxs2').classList.remove('hide');
@@ -44,4 +47,3 @@ document.querySelector(".close4").addEventListener("click", () => {
   getS('.close4').classList.add('liv');
 
 })
-
