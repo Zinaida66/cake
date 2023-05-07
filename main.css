@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 .hider {
-  min-height: 700px;
+  min-height: 500px;
   height: 100%;
   background: linear-gradient(rgb(127, 108, 233) 0%, rgb(207, 71, 248) 100%);
   display: flex;
@@ -202,7 +202,7 @@
 
 .final {
   width: 100%;
-  height: 164px;
+  height: 150px;
   background-color: rgba(63, 81, 181, 0.3);
 }
 .dets1{
