@@ -11,9 +11,6 @@ document.querySelector(".close").addEventListener("click", () => {
   getS('.close1').classList.add('liv');
   getS('.dets1').classList.remove('divs');
 })
-function cake(){
-  
-}
 //Desserts
 document.querySelector(".text2").addEventListener("click", () => {
   getS('.boxs2').classList.remove('hide');
